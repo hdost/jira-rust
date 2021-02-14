@@ -1,0 +1,23 @@
+[package]
+name = "jira"
+version = "0.0.1"
+authors = ["Harold Dost <github@hdost.com>"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+
+description = "A simple JIRA client for Rust."
+keywords = ["jira", "atlassian"]
+categories = ["api-bindings", "web-programming::http-client"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "^1.0"
+serde_derive = "^1.0"
+serde_json = "^1.0"
+url = "1.5"
+[dependencies.reqwest]
+version = "^0.10"
+default-features = false
+features = ["json"]
+
