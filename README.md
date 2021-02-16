@@ -1,6 +1,7 @@
 # JIRA Rust Library
 
 ![Primary Build Status](https://github.com/hdost/jira-rust/workflows/Continuous%20integration/badge.svg)
+![Documentation](https://docs.rs/jira/badge.svg)
 
 A Rust JIRA library based on generated OpenAPI with added functions focusing on simplicity.
 

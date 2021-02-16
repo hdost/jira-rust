@@ -11,6 +11,9 @@ keywords = ["jira", "atlassian"]
 categories = ["api-bindings", "web-programming::http-client"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[package.metadata.docs.rs]
+
+
 [dependencies]
 serde = "^1.0"
 serde_derive = "^1.0"
